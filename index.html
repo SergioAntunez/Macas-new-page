@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 </head>
 <body>
     <header class="header">
@@ -36,10 +37,10 @@
             <div class="div-off__link">    
                 <a href="./paginas/offroad.html" class="off-link"><img src="./imagenes/Mask group ingreso off.png"></a>
             </div>
-            <div class="div-off__img1">
+            <div data-aos="fade-up" class="div-off__img1">
                 <img src="./imagenes/Mask group offroad.png" class="off__img1" alt="Imagen offroad">
             </div>
-            <div class="div-off__img2">
+            <div data-aos="fade-up"class="div-off__img2">
                 <img src="./imagenes/Mask group offroad2.png" class="off__img2" alt="Imagen Offroad2">
             </div>
         </section>
@@ -51,10 +52,10 @@
             <div class="div-furn__link">  
                 <a href="./paginas/muebles.html" class="furn__link"><img src="./imagenes/Mask group ingreso muebles.png"></a>
             </div>
-            <div class="div-furn__img1"> 
+            <div data-aos="fade-right" class="div-furn__img1"> 
                 <img src="./imagenes/Mask group muebles.png" class="furn__img1" alt="Mueble 1">
             </div>
-            <div class="div-furn__img2"> 
+            <div data-aos="fade-right" class="div-furn__img2"> 
                 <img src="./imagenes/Mask group muebles2.png" class="furn__img2" alt="Mueble 2">
             </div>
         </section>
@@ -66,10 +67,10 @@
             <div class="div-serv__link">
                 <a href="./paginas/servicios.html" class="serv__link"><img src="./imagenes/Mask group ingreso servicios.png"></a>
             </div>
-            <div class="div-serv__img1">
+            <div data-aos="flip-left" class="div-serv__img1">
                 <img src="./imagenes/Mask group electricidad.png" class="serv__img1" alt="Imagen Electricidad">
             </div>
-            <div class="div-serv__img2">
+            <div data-aos="flip-left" class="div-serv__img2">
                 <img src="./imagenes/Mask group refrigeracion.png" class="serv__img2" alt="Imagen refrigeracion">
             </div>
         </section>
@@ -101,5 +102,9 @@
         </div>
         <h4 class="footer-copyright">Copyright 2019 MACASBRO SRL todos los derechos reservados</h4>     
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -29,19 +30,19 @@
     </header>
     <main class="main-off">
         <section class="sec-bid">
-            <img class="img-bid1" src="../imagenes/Bidon1.jpg" alt="Imagen bidon">
-            <img class="img-bid2" src="../imagenes/Bidon2.jpg" alt="Imagen descripcion">
-            <img class="img-bid3" src="../imagenes/Bidon.jpg" alt="Imagen detalle">
+            <img data-aos="flip-left" class="img-bid1" src="../imagenes/Bidon1.jpg" alt="Imagen bidon">
+            <img data-aos="flip-left" class="img-bid2" src="../imagenes/Bidon2.jpg" alt="Imagen descripcion">
+            <img data-aos="flip-left" class="img-bid3" src="../imagenes/Bidon.jpg" alt="Imagen detalle">
         </section>
         <section class="sec-prot">
-            <img class="img-prot1" src="../imagenes/protector1.jpg" alt="Imagen bidon">
-            <img class="img-prot2" src="../imagenes/protector2.jpg" alt="Imagen descripcion">
-            <img class="img-prot3" src="../imagenes/protector.jpg" alt="Imagen detalle">
+            <img data-aos="flip-right" class="img-prot1" src="../imagenes/protector1.jpg" alt="Imagen bidon">
+            <img data-aos="flip-right" class="img-prot2" src="../imagenes/protector2.jpg" alt="Imagen descripcion">
+            <img data-aos="flip-right" class="img-prot3" src="../imagenes/protector.jpg" alt="Imagen detalle">
         </section>
         <section class="sec-pala">
-            <img class="img-pala1" src="../imagenes/plancha1.jpg" alt="Imagen bidon">
-            <img class="img-pala2" src="../imagenes/plancha2.jpg" alt="Imagen descripcion">
-            <img class="img-pala3" src="../imagenes/plancha.jpg" alt="Imagen detalle">
+            <img data-aos="zoom-in" class="img-pala1" src="../imagenes/plancha1.jpg" alt="Imagen bidon">
+            <img data-aos="zoom-in" class="img-pala2" src="../imagenes/plancha2.jpg" alt="Imagen descripcion">
+            <img data-aos="zoom-in" class="img-pala3" src="../imagenes/plancha.jpg" alt="Imagen detalle">
         </Section>
     </main>
     <footer class="footer">
@@ -71,5 +72,9 @@
         </div> 
         <h4 class="footer-copyright">Copyright 2019 MACASBRO SRL todos los derechos reservados</h4>     
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
