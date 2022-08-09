@@ -876,6 +876,12 @@ select {
   margin-top: 5px;
 }
 
+.footer-net:hover {
+  background-color: rgb(223,243,228);
+  color: rgb(02, 60, 64);
+  font-weight: bold;
+}
+
 .footer-contact {
   margin-top: 20px;
   text-align: center;

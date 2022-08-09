@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -30,19 +31,28 @@
     </header>
     <main class="main-furniture">
         <section class="section-furniture">
-            <img class="img-furn" src="../imagenes/Muebles 1.jpg" alt="Mueble 1">
+            <img data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="img-furn" src="../imagenes/Muebles 1.jpg" alt="Mueble 1">
             <p class="furn-text">
                 Realizamos trabajos en madera y en hierro, industriales y hogareños
             </p>
         </section>  
         <section class="section-furniture">
-            <img class="img-furn" src="../imagenes/Muebles 2.jpg" alt="Muebles 2">
+            <img data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="img-furn" src="../imagenes/Muebles 2.jpg" alt="Muebles 2">
             <p class="furn-text">
                 Hacemos trabajos por pedido y a medida, para satisfacer la necesidad de cada cliente, Barras y desayunadores
             </p>
         </section>
         <section class="section-furniture">
-            <img class="img-furn" src="../imagenes/Muebles 3.jpg" alt="Muebles 3">
+            <img data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="img-furn" src="../imagenes/Muebles 3.jpg" alt="Muebles 3">
             <p class="furn-text">
                 Somos fanaticos del asado, por lo que diseñamos todo tipo de parrillas, adaptables a cada hogar
             </p>
@@ -75,5 +85,9 @@
         </div> 
         <h4 class="footer-copyright">Copyright 2019 MACASBRO SRL todos los derechos reservados</h4>     
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
