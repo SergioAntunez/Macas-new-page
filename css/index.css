@@ -832,6 +832,10 @@ select {
   
 }
 
+.footer-boot {
+  background-image: linear-gradient(to right, rgb(02, 60, 64), rgb(2, 44, 83));
+}
+
 .footer-section1 {
   display: flex;
   flex-direction: column;
@@ -903,7 +907,7 @@ select {
   font-size: 15px;
   color: rgb(223,243,228);
   text-align: center;
-  margin: 10px
+  margin: 10px 0px 10px 0px;
 }
 
 @media (max-width: 600px) {
