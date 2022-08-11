@@ -36,6 +36,10 @@ select {
 /* colors 2 60 64 - 223 243 228 - 146 180 244*/
 /* fonts 'Oswald', sans-serif; 'Oxygen', sans-serif;*/
 
+.header1 {
+  background-image: linear-gradient(to right, rgb(02, 60, 64), rgb(2, 44, 83));
+}
+
 .header {
   background-image: linear-gradient(to right, rgb(02, 60, 64), rgb(2, 44, 83));
   display: flex;
@@ -84,6 +88,13 @@ select {
   }
 }
 
+@media (max-width: 768px) {
+  .header-logo__img {
+    content: url(../imagenes/logo1.jpg)
+  }
+}
+
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column; 
@@ -104,9 +115,6 @@ select {
     padding: 8px;
   }
 
-  .header-logo__img {
-    content: url(../imagenes/logo1.jpg)
-  }
 }
 
 /* Main */

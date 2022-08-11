@@ -12,22 +12,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <header class="header">
-        <a class="header-logo__img" href="../index.html"><img src="../imagenes/Mask group Logofull.png" alt="Logo"></a>
-        <nav class="header-nav">
-            <ul class="header-ul">
-                <li class="header_li"><a href="../index.html">Home</a></li>
-                <li class="header_li"><a href="offroad.html">Offroad</a></li>
-                <li class="header_li"><a href="muebles.html">Muebles</a></li>
-                <li class="header_li"><a href="servicios.html">Servicios</a></li>
-                <li class="header_li"><a href="nosotros.html">Nosotros</a></li>
-            </ul>
+    <header>
+        <nav class="header1 navbar navbar-expand-sm p-0">
+          <div class="container-fluid">
+            <a class="header-logo__img navbar-brand" href="../index.html"><img src="../imagenes/Mask group Logofull.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item h3 p-1">
+                  <a class="header_li nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item h3 p-1">
+                  <a class="header_li nav-link" href="../paginas/offroad.html">Offroad</a>
+                </li>
+                <li class="nav-item h3 p-1">
+                  <a class="header_li nav-link" href="../paginas/muebles.html">Muebles</a>
+                </li>
+                <li class="nav-item h3 p-1">
+                  <a class="header_li nav-link" href="../paginas/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item h3 p-1">
+                  <a class="header_li nav-link" href="../paginas/nosotros.html">Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
+      </header>
     <main class="main-off">
         <section class="sec-bid">
             <img data-aos="flip-left" class="img-bid1" src="../imagenes/Bidon1.jpg" alt="Imagen bidon">
@@ -72,6 +90,7 @@
         </div> 
         <h4 class="footer-copyright">Copyright 2019 MACASBRO SRL todos los derechos reservados</h4>     
     </footer>
+    <script src="../js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
