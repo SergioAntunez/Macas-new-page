@@ -655,6 +655,10 @@ select {
 
 /* Formulario de Contacto */
 
+.main-contact1 {
+  background-color: rgb(223,243,228);
+}
+
 .main-contact {
   background-color: rgb(223,243,228);
   display: grid;
