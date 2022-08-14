@@ -527,6 +527,15 @@ select {
   padding: 20px;
 }
 
+.main-service {
+  background-color: rgb(223,243,228);
+}
+
+.serv-text {
+  align-self: center;
+  justify-content: center;
+}
+
 .ser-title {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
