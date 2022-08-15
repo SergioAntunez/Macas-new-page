@@ -124,6 +124,10 @@ select {
 
 /* Main */
 
+.main-boot {
+  background-color: rgb(223,243,228);
+}
+
 .main {
   background-color: rgb(223,243,228);
   display: grid;
@@ -133,6 +137,10 @@ select {
   'offroad'
   'furniture'
   'service';
+}
+
+.text-center {
+  align-self: center;
 }
 
 .section-off {
@@ -184,6 +192,14 @@ select {
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   color: rgb(51, 00,54);
+}
+
+.off__img1 {
+  max-width: 100%;
+}
+
+.off__img2 {
+  max-width: 100%;
 }
 
 .section-furn {
