@@ -1,0 +1,44 @@
+/* Footer */
+
+footer {
+    background-image: linear-gradient(to right, rgb(02, 60, 64), rgb(2, 44, 83));
+  }
+  
+  .footer-title {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(146,180,244);
+    text-align: center;
+  }
+  
+  .footer-li {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(223,243,228);
+    text-align: center;
+
+    &:hover {
+        background-color: rgb(223,243,228);
+        color: rgb(02, 60, 64);
+        font-weight: bold;
+        border-radius: 10px;
+      }
+  }
+  
+  .footer-contact {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-copyright {
+    grid-column: 1 / 4;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(223,243,228);
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+  }

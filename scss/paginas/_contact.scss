@@ -1,0 +1,51 @@
+.main-contact {
+    background-color: rgb(223,243,228);
+  }
+  
+  .contact {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgb(51, 00,54);
+    text-align: center;
+  }
+  
+  .text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(51, 00,54);
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .other {
+    margin: 2rem;
+    &-contact {
+        align-content: center;
+        padding: 2rem;
+        animation-name: move;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(-10%);
+    }
+  
+    50% {
+      transform: translateX(10%)
+    }
+  
+    100% {
+      transform: translateX(-10%)
+    }
+  }
+  
+  .letter {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(51, 00,54);
+    align-content: center;
+    padding: 1rem;
+    }

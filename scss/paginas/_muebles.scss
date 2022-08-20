@@ -1,0 +1,26 @@
+.main-furniture {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    background-color: rgb(223,243,228);
+    justify-content: center;
+  }
+  
+  .section-furniture {
+    flex-direction: column;
+    width: 500px;
+    padding: 2rem;
+    justify-content: center;
+  }
+  
+  .img-furn {
+    max-width: 100%;
+  }
+  
+  .furn-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(51, 00,54);
+    text-align: center;
+    margin: 2rem;
+  }
