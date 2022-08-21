@@ -1,5 +1,5 @@
 .main-service {
-    background-color: rgb(223,243,228);
+    background-color: $primary;
   }
   
   .serv-text {
@@ -8,18 +8,18 @@
   }
   
   .ser-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: rgb(51, 00,54);
+    font-family: $letter-main;
+    font-size: $text-lg;
+    color: $paragraph;
     text-align: center;
     padding: 2rem;
     justify-content: center;
   }
   
   .ser-paragraf {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: rgb(51, 00,54);
+    font-family: $letter-main;
+    font-size: $text-md;
+    color: $paragraph;
     text-align: center;
     margin: 2rem;
   }

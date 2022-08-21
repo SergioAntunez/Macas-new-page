@@ -1,7 +1,7 @@
 /*HEADER*/
 
 header {
-    background-image: linear-gradient(to right, rgb(02, 60, 64), rgb(2, 44, 83));     
+    background-image: $bg-part;     
   }
 
   .header-logo__img {
@@ -9,23 +9,23 @@ header {
   }
 
   .header_li {
-    color: rgb(223,243,228);
-    font-family: 'Oxygen', sans-serif;
-    font-size: 15px;
+    color: $primary;
+    font-family: $letter-part;
+    font-size: $text-sm;
     font-weight: bold;
     margin: 10px; 
     padding: 15px; 
     transition: all, 0.3s;
     
     &:hover {
-        background-color: rgb(223,243,228);
-        color: rgb(02, 60, 64);
+        background-color: $primary;
+        color: $secondary;
         border-radius: 20px;
       }
   }
   
   #nav-button {
-    background-color: rgb(223,243,228);
+    background-color: $primary;
     margin: 20px;  
   }
 

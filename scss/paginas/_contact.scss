@@ -1,18 +1,18 @@
 .main-contact {
-    background-color: rgb(223,243,228);
+    background-color: $primary;
   }
   
   .contact {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: rgb(51, 00,54);
+    font-family: $letter-main;
+    font-size: $text-lg;
+    color: $paragraph;
     text-align: center;
   }
   
   .text {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: rgb(51, 00,54);
+    font-family: $letter-main;
+    font-size: $text-md;
+    color: $paragraph;
     text-align: center;
     margin: 2rem;
   }
@@ -44,8 +44,8 @@
   
   .letter {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(51, 00,54);
+    font-family: $letter-main;
+    color: $paragraph;
     align-content: center;
     padding: 1rem;
     }

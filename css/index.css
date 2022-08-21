@@ -26,6 +26,10 @@ textarea,
 select {
   font: inherit; }
 
+/*VARIABLES*/
+/*FONT*/
+/*FONT SIZE*/
+/*COLORS*/
 /*PARTIALS*/
 /*HEADER*/
 header {
@@ -36,7 +40,7 @@ header {
 
 .header_li {
   color: #dff3e4;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin: 10px;
@@ -60,14 +64,14 @@ footer {
   background-image: linear-gradient(to right, #023c40, #022c53); }
 
 .footer-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: bolder;
   font-size: 20px;
   color: #92b4f4;
   text-align: center; }
 
 .footer-li {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: lighter;
   font-size: 15px;
   color: #dff3e4;
@@ -85,7 +89,7 @@ footer {
 .footer-copyright {
   grid-column: 1 / 4;
   justify-content: center;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: lighter;
   font-size: 15px;
   color: #dff3e4;
@@ -399,7 +403,7 @@ footer {
   max-width: 100%; }
 
 .furn-text {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036;
   text-align: center;
@@ -413,7 +417,7 @@ footer {
   justify-content: center; }
 
 .ser-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 40px;
   color: #330036;
   text-align: center;
@@ -421,7 +425,7 @@ footer {
   justify-content: center; }
 
 .ser-paragraf {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036;
   text-align: center;
@@ -458,7 +462,7 @@ footer {
   grid-column: 2 / 3; }
 
 .about-text {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036;
   text-align: center;
@@ -504,13 +508,13 @@ footer {
   background-color: #dff3e4; }
 
 .contact {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 40px;
   color: #330036;
   text-align: center; }
 
 .text {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036;
   text-align: center;
@@ -535,7 +539,7 @@ footer {
 
 .letter {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #330036;
   align-content: center;
   padding: 1rem; }

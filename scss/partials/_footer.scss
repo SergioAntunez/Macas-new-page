@@ -1,27 +1,27 @@
 /* Footer */
 
 footer {
-    background-image: linear-gradient(to right, rgb(02, 60, 64), rgb(2, 44, 83));
+    background-image: $bg-part
   }
   
   .footer-title {
-    font-family: 'Oxygen', sans-serif;
+    font-family: $letter-part;
     font-weight: bolder;
-    font-size: 20px;
-    color: rgb(146,180,244);
+    font-size: $text-md;
+    color: $title;
     text-align: center;
   }
   
   .footer-li {
-    font-family: 'Oxygen', sans-serif;
+    font-family: $letter-part;
     font-weight: lighter;
-    font-size: 15px;
-    color: rgb(223,243,228);
+    font-size: $text-sm;
+    color: $primary;
     text-align: center;
 
     &:hover {
-        background-color: rgb(223,243,228);
-        color: rgb(02, 60, 64);
+        background-color: $primary;
+        color: $secondary;
         font-weight: bold;
         border-radius: 10px;
       }
@@ -35,10 +35,10 @@ footer {
   .footer-copyright {
     grid-column: 1 / 4;
     justify-content: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: $letter-part;
     font-weight: lighter;
-    font-size: 15px;
-    color: rgb(223,243,228);
+    font-size: $text-sm;
+    color: $primary;
     text-align: center;
     margin: 10px 0px 10px 0px;
   }
