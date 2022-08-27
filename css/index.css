@@ -30,6 +30,7 @@ select {
 /*FONT*/
 /*FONT SIZE*/
 /*COLORS*/
+/*Gap*/
 /*PARTIALS*/
 /*HEADER*/
 header {
@@ -109,9 +110,9 @@ footer {
 
 .section-off {
   display: grid;
-  grid-area: offroad;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-area: offroad;
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -139,12 +140,12 @@ footer {
   margin: 1rem; }
 
 .off-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 40px;
   color: #330036; }
 
 .off-paragraf {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036; }
 
@@ -156,9 +157,9 @@ footer {
 
 .section-furn {
   display: grid;
-  grid-area: furniture;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-area: furniture;
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -186,20 +187,20 @@ footer {
   margin: 1rem; }
 
 .furn-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 40px;
   color: #330036; }
 
 .furn-paragraf {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036; }
 
 .section-serv {
   display: grid;
-  grid-area: service;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-area: service;
   align-items: center;
   justify-items: center;
   text-align: center;
@@ -227,12 +228,12 @@ footer {
   margin: 1rem; }
 
 .serv-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 40px;
   color: #330036; }
 
 .serv-paragraf {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036; }
 
@@ -314,77 +315,29 @@ footer {
   background-color: #dff3e4;
   justify-content: center; }
 
-.sec-bid {
+.sec-bid, .sec-prot, .sec-pala {
   flex-direction: column;
   width: 500px;
   padding: 2rem;
   justify-content: center; }
 
-.sec-prot {
-  flex-direction: column;
-  width: 500px;
-  padding: 2rem;
-  justify-content: center; }
-
-.sec-pala {
-  flex-direction: column;
-  width: 500px;
-  padding: 2rem;
-  justify-content: center; }
-
-.img-bid1 {
+.img-bid1, .img-bid2, .img-bid3, .img-prot1, .img-prot2, .img-prot3, .img-pala1, .img-pala2, .img-pala3 {
   margin: 0.2rem;
   padding: 1rem;
   width: 500px;
   max-width: 100%; }
 
 .img-bid2 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
-
-.img-bid3 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
+  border-radius: 20%; }
 
 .img-prot1 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
-
-.img-prot2 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
+  border-radius: 20%; }
 
 .img-prot3 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
-
-.img-pala1 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
+  border-radius: 20%; }
 
 .img-pala2 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
-
-.img-pala3 {
-  margin: 0.2rem;
-  padding: 1rem;
-  width: 500px;
-  max-width: 100%; }
+  border-radius: 20%; }
 
 .main-furniture {
   display: flex;
@@ -436,9 +389,9 @@ footer {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-items: center;
   text-align: center;
-  justify-content: center;
-  align-content: center;
   width: 100%; }
 
 #title {
@@ -465,9 +418,9 @@ footer {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   color: #330036;
+  align-items: center;
+  justify-items: center;
   text-align: center;
-  justify-content: center;
-  align-self: center;
   padding: 2rem;
   margin: 2rem; }
 
@@ -540,6 +493,7 @@ footer {
 .letter {
   text-align: center;
   font-family: "Oswald", sans-serif;
+  font-size: 20px;
   color: #330036;
   align-content: center;
   padding: 1rem; }

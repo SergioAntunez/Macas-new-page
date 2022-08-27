@@ -1,0 +1,17 @@
+@mixin grid ($dis, $column, $row) {
+    display: $dis;
+    grid-template-columns: repeat($column, 1fr);
+    grid-template-rows: repeat($row, 1fr);
+}
+
+@mixin letter ($font, $size, $color) {
+    font-family: $font;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin order ($align, $just, $textal){
+    align-items: $align;
+    justify-items: $just;
+    text-align: $textal;
+}

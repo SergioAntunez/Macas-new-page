@@ -3,25 +3,21 @@
   }
   
   .contact {
-    font-family: $letter-main;
-    font-size: $text-lg;
-    color: $paragraph;
+    @include letter($letter-main, $text-lg, $paragraph);
     text-align: center;
   }
   
   .text {
-    font-family: $letter-main;
-    font-size: $text-md;
-    color: $paragraph;
+    @include letter($letter-main, $text-md, $paragraph);
     text-align: center;
-    margin: 2rem;
+    margin: map-get($map: $size, $key: 'rems' );
   }
   
   .other {
-    margin: 2rem;
+    margin: map-get($map: $size, $key: 'rems' );
     &-contact {
         align-content: center;
-        padding: 2rem;
+        padding: map-get($map: $size, $key: 'rems' );
         animation-name: move;
         animation-duration: 2s;
         animation-iteration-count: infinite;
@@ -44,8 +40,7 @@
   
   .letter {
     text-align: center;
-    font-family: $letter-main;
-    color: $paragraph;
+    @include letter($letter-main, $text-md, $paragraph);
     align-content: center;
-    padding: 1rem;
+    padding: map-get($map: $size, $key: 'rem' );
     }

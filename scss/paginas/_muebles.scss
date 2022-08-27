@@ -18,9 +18,7 @@
   }
   
   .furn-text {
-    font-family: $letter-main;
-    font-size: $text-md;
-    color: $paragraph;
+    @include letter($letter-main, $text-md, $paragraph);
     text-align: center;
     margin: 2rem;
   }

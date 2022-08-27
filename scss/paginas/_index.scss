@@ -1,5 +1,5 @@
 .main {
-    background-color: rgb(223,243,228);
+    background-color: $primary;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr, 1fr, 1fr;
@@ -14,14 +14,10 @@
   }
   
   .section-off {
-    display: grid;
+    @include grid (grid, 2, 2);
     grid-area: offroad;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    margin: 20px;
+    @include order (center, center, center);
+    margin: map-get($map: $size, $key: 'px' );
   }
   
   .div-off__text {
@@ -42,25 +38,21 @@
   .div-off__img1 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    margin: 1rem;
+    margin: map-get($map: $size, $key: 'rem' );
   }
   
   .div-off__img2 {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    margin: 1rem;
+    margin: map-get($map: $size, $key: 'rem' );
   }
   
   .off-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: rgb(51, 00,54);
+    @include letter($letter-main, $text-lg, $paragraph)
   }
   
   .off-paragraf {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: rgb(51, 00,54);
+    @include letter($letter-main, $text-md, $paragraph)
   }
   
   .off__img1 {
@@ -72,14 +64,10 @@
   }
   
   .section-furn {
-    display: grid;
+    @include grid (grid, 2, 2);
     grid-area: furniture;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    margin: 20px;
+    @include order (center, center, center);
+    margin: map-get($map: $size, $key: 'px' );
   }
   
   .div-furn__text {
@@ -99,36 +87,28 @@
   .div-furn__img1 {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    margin: 1rem;
+    margin: map-get($map: $size, $key: 'rem' );
   }
   
   .div-furn__img2 {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
-    margin: 1rem;
+    margin: map-get($map: $size, $key: 'rem' );
   }
   
   .furn-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: rgb(51, 00,54);
+    @include letter($letter-main, $text-lg, $paragraph)
   }
   
   .furn-paragraf {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: rgb(51, 00,54);
+    @include letter($letter-main, $text-md, $paragraph)
   }
   
   .section-serv {
-    display: grid;
+    @include grid (grid, 2, 2);
     grid-area: service;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    margin: 20px;
+    @include order (center, center, center);
+    margin: map-get($map: $size, $key: 'px' );
   }
   
   .div-serv__text {
@@ -148,25 +128,21 @@
   .div-serv__img1 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    margin: 1rem;
+    margin: map-get($map: $size, $key: 'rem' );
   }
   
   .div-serv__img2 {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    margin:1rem;
+    margin: map-get($map: $size, $key: 'rem' );
   }
   
   .serv-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: rgb(51,00,54);
+    @include letter($letter-main, $text-lg, $paragraph)
   }
   
   .serv-paragraf {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: rgb(51,00,54);
+    @include letter($letter-main, $text-md, $paragraph)
   }
   
   @media (max-width: 1023px) {
@@ -190,7 +166,7 @@
     .div-off__img1 {
       grid-row: 1 / 2;
       grid-column: 1 / 2;
-      margin: 1rem;
+      margin: map-get($map: $size, $key: 'rem' );
     }
   
     .off__img1 {
@@ -200,7 +176,7 @@
     .div-off__img2 {
       grid-row: 4 / 5;
       grid-column: 1 / 2;
-      margin: 1rem;
+      margin: map-get($map: $size, $key: 'rem' );
     }
   
     .off__img2 {
@@ -237,7 +213,7 @@
     .div-furn__img2 {
       grid-row: 4 / 5;
       grid-column: 1 / 2;
-      margin: 1rem;
+      margin: map-get($map: $size, $key: 'rem' );
     }
   
     .furn__img2 {
@@ -264,7 +240,7 @@
     .div-serv__img1 {
       grid-row: 1 / 2;
       grid-column: 1 / 2;
-      margin: 1rem;
+      margin: map-get($map: $size, $key: 'rem' );
     }
   
     .serv__img1 {
@@ -274,7 +250,7 @@
     .div-serv__img2 {
       grid-row: 4 / 5;
       grid-column: 1 / 2;
-      margin: 1rem;
+      margin: map-get($map: $size, $key: 'rem' );
     }
   
     .serv__img2 {

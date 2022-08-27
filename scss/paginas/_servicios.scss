@@ -8,18 +8,14 @@
   }
   
   .ser-title {
-    font-family: $letter-main;
-    font-size: $text-lg;
-    color: $paragraph;
+    @include letter($letter-main, $text-lg, $paragraph);
     text-align: center;
-    padding: 2rem;
+    padding: map-get($map: $size, $key: 'rems' );
     justify-content: center;
   }
   
   .ser-paragraf {
-    font-family: $letter-main;
-    font-size: $text-md;
-    color: $paragraph;
+    @include letter($letter-main, $text-md, $paragraph);
     text-align: center;
-    margin: 2rem;
+    margin: map-get($map: $size, $key: 'rems' );
   }

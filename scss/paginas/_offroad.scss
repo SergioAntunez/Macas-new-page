@@ -9,83 +9,57 @@
   .sec-bid {
     flex-direction: column;
     width: 500px;
-    padding: 2rem;
+    padding: map-get($map: $size, $key: 'rems' );
     justify-content: center;
   }
   
   .sec-prot {
-    flex-direction: column;
-    width: 500px;
-    padding: 2rem;
-    justify-content: center;
+    @extend .sec-bid;
   }
   
   .sec-pala {
-    flex-direction: column;
-    width: 500px;
-    padding: 2rem;
-    justify-content: center;
+    @extend .sec-bid;
   }
   
   .img-bid1 {
     margin: 0.2rem;
-    padding: 1rem;
+    padding: map-get($map: $size, $key: 'rem' );
     width: 500px;
     max-width: 100%;
   }
   
   .img-bid2 {
-    margin: 0.2rem;
-    padding: 1rem;  
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;    
+    border-radius: 20%;
   }
   
   .img-bid3 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
   }
   
   .img-prot1 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
+    border-radius: 20%;
   }
   
   .img-prot2 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
   }
   
   .img-prot3 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
+    border-radius: 20%;
   }
   
   .img-pala1 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
   }
   
   .img-pala2 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
+    border-radius: 20%;
   }
   
   .img-pala3 {
-    margin: 0.2rem;
-    padding: 1rem;
-    width: 500px;
-    max-width: 100%;
+    @extend .img-bid1;
   }

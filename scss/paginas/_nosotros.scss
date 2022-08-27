@@ -3,9 +3,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
+    @include order (center, center, center);
     width: 100%;
   }
   
@@ -35,18 +33,14 @@
   }
   
   .about-text {
-    font-family: $letter-main;
-    font-size: $text-md;
-    color: $paragraph;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    padding: 2rem;
-    margin: 2rem;
+    @include letter($letter-main, $text-md, $paragraph);
+    @include order (center, center, center);
+    padding: map-get($map: $size, $key: 'rems' );
+    margin: map-get($map: $size, $key: 'rems' );
   }
   
   .about-img {
-    padding: 1rem;
+    padding: map-get($map: $size, $key: 'rem' );
     justify-self: center;
   }
   
